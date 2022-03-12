@@ -25,7 +25,7 @@ Logfiles are saved in the Guild Wars directory.
 
 ### launch_umod
 
-Launched uMod and then launches Guild Wars with the [-bmp](https://wiki.guildwars.com/wiki/Command_line_arguments#-bmp) and [-dsound](https://wiki.guildwars.com/wiki/Command_line_arguments#-dsound) command line arguments.
+Launches uMod and then launches Guild Wars with the [-bmp](https://wiki.guildwars.com/wiki/Command_line_arguments#-bmp) and [-dsound](https://wiki.guildwars.com/wiki/Command_line_arguments#-dsound) command line arguments.
 
 This assumes that the uMod directory is located within the Guild Ward directory. e.g.
 
