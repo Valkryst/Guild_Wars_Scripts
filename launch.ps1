@@ -1,0 +1,1 @@
+Start-Process "Gw.exe" -NoNewWindow -Wait -ArgumentList ("-bmp", "-dsound")
