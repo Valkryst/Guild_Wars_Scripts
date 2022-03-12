@@ -18,6 +18,8 @@ After running the script, you will need to follow certain sections of [this guid
 2. Follow the steps under either "Ambisonic Setup" or "HRTF Setup", depending on your situation.
 3. Follow the steps under "Troubleshooting". If using `launch_debug.ps1`, you don't need to manually set the environment variables. Just run the script and read through the `log_alsoft.txt` and `log_dsoal.txt` files after launching Guild Wars and enabling EAX.
 
+This _will_ overwrite your existing DSOAL setup, so make sure to back up any files you deem necessary. e.g. Files in `%APPDATA%/openal/presets` and `alsoft.ini` from your Guild Wars directory.
+
 ### install_umod
 
 Downloads and configures [this copy](https://github.com/Valkryst/Guild_Wars_Scripts/blob/main/files/uMod.zip) of uMod from the _files_ directory in this repository. The following mods come pre-installed:
