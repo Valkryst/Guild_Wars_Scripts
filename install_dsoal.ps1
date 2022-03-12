@@ -2,10 +2,8 @@
 $file_sha = "dsoal.sha256"
 $file_zip = "dsoal.zip"
 
-#Invoke-WebRequest "https://github.com/Valkryst/Guild_Wars_Scripts/raw/main/files/dsoal.sha256" -OutFile $file_sha
-#Invoke-WebRequest "https://github.com/Valkryst/Guild_Wars_Scripts/raw/main/files/dsoal.zip" -OutFile $file_zip
-Invoke-WebRequest "https://public.valkryst.com/dsoal.sha256" -OutFile $file_sha
-Invoke-WebRequest "https://public.valkryst.com/dsoal.zip" -OutFile $file_zip
+Invoke-WebRequest "https://github.com/Valkryst/Guild_Wars_Scripts/raw/main/files/dsoal.sha256" -OutFile $file_sha
+Invoke-WebRequest "https://github.com/Valkryst/Guild_Wars_Scripts/raw/main/files/dsoal.zip" -OutFile $file_zip
 
 $hash_computed = (Get-FileHash -Algorithm SHA256 -Path $file_zip).Hash
 $hash_existing = Get-Content -Path $file_sha
@@ -45,6 +43,7 @@ $directory = Join-Path $env:APPDATA "openal"
 if (-not (Test-Path $directory -IsValid)) {
     New-Item $directory -ItemType Directory
 }
+pause
 
 Move-Item -ErrorAction SilentlyContinue -Path (Join-Path $PSScriptRoot "dsoal/presets") -Destination $directory
 Move-Item -ErrorAction SilentlyContinue -Path (Join-Path $PSScriptRoot "dsoal/hrtf_defs") -Destination $directory
