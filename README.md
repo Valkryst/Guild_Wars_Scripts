@@ -44,6 +44,12 @@ This assumes that the uMod directory is located within the Guild Ward directory.
     * uMod
         * uMod.exe
 
+When you launch uMod with Guild Wars, for the first time, you may need to perform the following actions to ensure all mods are being loaded.
+
+1. Click `Main` in uMod's toolbar.
+2. Click `Load Template ...`.
+3. Load the `uMod` template.
+4. Close uMod and Guild Wars, then re-run `launch_umod.ps1`.
 
 ### update
 
