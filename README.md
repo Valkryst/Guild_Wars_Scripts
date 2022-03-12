@@ -23,6 +23,17 @@ Primarily for debugging ALSOFT and DSOAL, for users who have enabled [3D positio
 
 Logfiles are saved in the Guild Wars directory.
 
+### launch_umod
+
+Launched uMod and then launches Guild Wars with the [-bmp](https://wiki.guildwars.com/wiki/Command_line_arguments#-bmp) and [-dsound](https://wiki.guildwars.com/wiki/Command_line_arguments#-dsound) command line arguments.
+
+This assumes that the uMod directory is located within the Guild Ward directory. e.g.
+
+* Guild Wars
+    * Gw.exe
+    * uMod
+        * uMod.exe
+
 
 ### update
 
