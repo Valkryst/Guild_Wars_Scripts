@@ -6,6 +6,8 @@ To use these scripts, you must have Guild Wars and [PowerShell](https://github.c
 
 [Download](https://www.wikihow.com/Download-a-File-from-GitHub) one of the the PowerShell scripts, place it in your Guild Wars directory alongside `Gw.exe`, and then run it either by double-clicking the file or by right-clicking and selecting "Run with PowerShell".
 
+Alternatively, if your system does not allow you to run PowerShell scripts, you can [open a PowerShell window](https://adamtheautomator.com/windows-open-powershell-in-a-folder/) in your Guild Wars directory and copy-paste the script into it.
+
 ## Script Descriptions
 
 ### install_dsoal
